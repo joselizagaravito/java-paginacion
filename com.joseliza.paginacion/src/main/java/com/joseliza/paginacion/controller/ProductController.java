@@ -12,7 +12,7 @@ import javax.validation.Valid;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("student")
+@RequestMapping("product")
 public class ProductController {
     @Autowired
     private ProductService productService;
